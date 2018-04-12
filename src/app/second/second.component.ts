@@ -8,8 +8,6 @@ import { Observable } from 'rxjs/Rx';
 })
 export class SecondComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit() {
     const myNumbers = Observable.interval(1000);
 
